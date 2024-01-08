@@ -1,4 +1,4 @@
-# @golevelup/nestjs-rabbitmq
+# @iimm/nestjs-rabbitmq
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@iimm/nestjs-rabbitmq"><img src="https://img.shields.io/npm/v/@iimm/nestjs-rabbitmq.svg?style=flat" alt="version" /></a>
@@ -8,7 +8,7 @@
 
 # Table of Contents
 
-this module is forked from [@golevelup/nestjs-rabbitmq](#golevelupnestjs-rabbitmq)
+this package is forked from [@golevelup/nestjs-rabbitmq](#golevelupnestjs-rabbitmq)
 
 
 - [@golevelup/nestjs-rabbitmq](#golevelupnestjs-rabbitmq)
