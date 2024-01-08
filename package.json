@@ -1,0 +1,41 @@
+{
+  "name": "@iimm/nestjs-rabbitmq",
+  "version": "1.0.0",
+  "description": "Badass RabbitMQ addons for NestJS,forked from https://github.com/golevelup/nestjs/blob/master/packages/rabbitmq/README.md",
+  "homepage": "https://github.com/iimm/nestjs-rabbitmq",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "build:watch": "tsc --build tsconfig.build.json --watch"
+  },
+  "keywords": [
+    "nestjs",
+    "RabbitMQ",
+    "amqp"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/lodash": "^4.14.202",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@golevelup/nestjs-common": "^2.0.0",
+    "@golevelup/nestjs-discovery": "^4.0.0",
+    "@golevelup/nestjs-modules": "^0.7.0",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "amqp-connection-manager": "^4.1.14",
+    "amqplib": "^0.10.3",
+    "reflect-metadata": "^0.1.0",
+    "rxjs": "^7.0.0"
+  }
+}
